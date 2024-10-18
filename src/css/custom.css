@@ -1,0 +1,23 @@
+:root {
+  --ifm-color-primary: #006d77; /* Teal blue */
+  --ifm-color-primary-dark: #00616b; /* Darker teal */
+  --ifm-color-primary-darker: #005661; /* Even darker teal */
+  --ifm-color-primary-darkest: #004a54; /* Darkest teal for headers/buttons */
+  --ifm-color-primary-light: #007f8c; /* Lighter teal */
+  --ifm-color-primary-lighter: #0091a0; /* Even lighter teal */
+  --ifm-color-primary-lightest: #00a3b4; /* Lightest teal highlight */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 109, 119, 0.1); /* Light teal for highlighted code */
+}
+
+/* Dark mode colors */
+[data-theme='dark'] {
+  --ifm-color-primary: #83c5be; /* Soft teal for dark mode primary */
+  --ifm-color-primary-dark: #6dbab2; /* Darker soft teal */
+  --ifm-color-primary-darker: #5fb0a7; /* Even darker soft teal */
+  --ifm-color-primary-darkest: #4a9d94; /* Darkest soft teal */
+  --ifm-color-primary-light: #99d0ca; /* Lighter soft teal */
+  --ifm-color-primary-lighter: #a7d5d0; /* Even lighter soft teal */
+  --ifm-color-primary-lightest: #c4e3e0; /* Lightest soft teal */
+  --docusaurus-highlighted-code-line-bg: rgba(131, 197, 190, 0.2); /* Light teal highlight for dark mode */
+}
